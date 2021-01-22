@@ -1,0 +1,36 @@
+.about {
+  display: flex;
+  width: 100%;
+  padding-top: 148px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 106px;
+
+  background-color: $basic-white;
+}
+
+.about-title {
+  width: 93px;
+  margin-top: 7px;
+  margin-right: 225px;
+  margin-bottom: 0;
+
+  @include font-regular;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $basic-dark-color;
+}
+
+.about-text {
+  width: 592px;
+  margin-top: 0;
+  margin-bottom: 65px;
+
+  @include font-medium;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.005em;
+  color: $basic-dark-color;
+}

@@ -1,0 +1,47 @@
+.statistics {
+  width: 100%;
+  padding-top: 105px;
+  padding-bottom: 51px;
+  padding-left: 587px;
+
+  background-image: url("../img/statistics-image.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: $basic-white;
+}
+
+.statistics__title {
+  margin-top: 0;
+  margin-bottom: 224px;
+
+  @include font-regular;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $basic-dark-color;
+}
+
+.statistics__text {
+  width: 676px;
+  margin-bottom: 148px;
+
+  @include font-bold;
+  font-size: 36px;
+  line-height: 59px;
+  letter-spacing: -0.01em;
+  color: $basic-dark-color;
+}
+
+.statistics__text-logo {
+  color: $logo-text-color;
+}
+
+.statistics__link {
+  @include font-bold;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $light-color;
+}

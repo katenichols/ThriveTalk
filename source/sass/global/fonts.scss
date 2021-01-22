@@ -28,14 +28,17 @@
     url("../fonts/larsseitmedium.woff") format("woff");
 }
 
-@mixin font-family () {
+@mixin font-regular {
+  font-style: normal;
   font-family: "Larsseit", "Geneva", "Tahoma", sans-serif;
 }
 
-@mixin font-family-medium () {
+@mixin font-medium {
+  font-style: normal;
   font-family: "Larsseit Medium", "Geneva", "Tahoma", sans-serif;
 }
 
-@mixin font-family-bold () {
+@mixin font-bold {
+  font-style: normal;
   font-family: "Larsseit Bold", "Geneva Bold", "Tahoma Bold", sans-serif;
 }
