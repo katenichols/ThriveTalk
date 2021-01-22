@@ -1,0 +1,39 @@
+.page-header {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin: 0;
+  padding-top: 27px;
+  padding-right: 131px;
+  padding-bottom: 0;
+  padding-left: 179px;
+}
+
+.page-header__logo {
+  z-index: 3;
+  width: 102px;
+  height: 19px;
+  margin-top: 6px;
+  margin-right: 7px;
+  align-items: flex-start;
+}
+
+.page-header__link {
+  z-index: 5;
+  width: 150px;
+  height: 50px;
+  padding-top: 18px;
+  text-align: center;
+
+  @include font-bold;
+  font-size: 14px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: $basic-white;
+
+  background-color: $basic-color;
+  border-radius: 25px;
+}

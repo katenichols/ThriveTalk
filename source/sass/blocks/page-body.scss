@@ -1,0 +1,16 @@
+.page-body {
+  margin: 0;
+  padding: 0;
+}
+
+.page-body__wrapper {
+  position: relative;
+  width: 1440px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  padding: 0;
+
+  background: linear-gradient(to right, $light-background-color 77.5%, $basic-white 77.5%, $basic-white 100%);
+}

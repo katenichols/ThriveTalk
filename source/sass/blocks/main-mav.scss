@@ -1,0 +1,36 @@
+.main-nav {
+  display: block;
+  width: auto;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav-list {
+  display: flex;
+  width: auto;
+  height: 40px;
+  align-items: center;
+
+  @include font-regular;
+  font-size: 14px;
+  line-height: 16px;
+  color: $basic-dark-color;
+}
+
+.main-nav-list__item {
+  display: block;
+  margin-right: 13px;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+
+.main-nav-list__item:last-child {
+  margin-right: 0;
+}
+
+.main-nav-list__item-link--active {
+  padding-bottom: 10px;
+
+  border-bottom: 1px solid $basic-dark-color;
+}

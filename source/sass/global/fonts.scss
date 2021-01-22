@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Larsseit";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: local("Larsseit"),
+    url("../fonts/larsseit.woff2") format("woff2"),
+    url("../fonts/larsseit.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Larsseit Bold";
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: local("Larsseit Bold"),
+    url("../fonts/larsseitbold.woff2") format("woff2"),
+    url("../fonts/larsseitbold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Larsseit Medium";
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: local("Larsseit Medium"),
+    url("../fonts/larsseitmedium.woff2") format("woff2"),
+    url("../fonts/larsseitmedium.woff") format("woff");
+}
+
+@mixin font-regular {
+  font-style: normal;
+  font-family: "Larsseit", "Geneva", "Tahoma", sans-serif;
+}
+
+@mixin font-medium {
+  font-style: normal;
+  font-family: "Larsseit Medium", "Geneva", "Tahoma", sans-serif;
+}
+
+@mixin font-bold {
+  font-style: normal;
+  font-family: "Larsseit Bold", "Geneva Bold", "Tahoma Bold", sans-serif;
+}
